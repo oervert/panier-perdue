@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Panier Perdu : récupère les paniers abandonnés de ta boutique</title>
+<meta name="description" content="Deux relances écrites pour tes paniers abandonnés Shopify ou WooCommerce. 29 € par mois, sans engagement, satisfait ou remboursé 14 jours.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Panier Perdu : récupère les paniers abandonnés de ta boutique">
+<meta property="og:description" content="Deux relances écrites pour tes paniers abandonnés. 29 € par mois, sans engagement, satisfait ou remboursé 14 jours.">
+<!-- Image d'aperçu : ajouter plus tard une balise og:image avec l'adresse complète de ton image -->
+<meta name="theme-color" content="#0E3B3A">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --encre:#0E3B3A;      /* couleur 1 : vert profond */
+  --signal:#FFC83D;     /* couleur 2 : jaune signal */
+  --fond:#F7F8F6;
+  --texte:#1B2423;
+  --discret:#5A6664;
+  --trait:#D5DBD8;
+  --police:"Bricolage Grotesque",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--fond);color:var(--texte);font-family:var(--police);font-size:1.0625rem;line-height:1.55;padding-bottom:5.5rem}
+.wrap{max-width:40rem;margin:0 auto;padding:0 1.25rem}
+a{color:inherit}
+header{padding:1.1rem 0;border-bottom:1px solid var(--trait)}
+.logo{font-weight:800;font-size:1.15rem;letter-spacing:-.01em;text-decoration:none;color:var(--encre)}
+h1{font-size:clamp(2.1rem,9vw,3.4rem);line-height:1.05;letter-spacing:-.025em;font-weight:800;margin:2rem 0 1rem;color:var(--encre)}
+h2{font-size:1.5rem;line-height:1.2;letter-spacing:-.015em;font-weight:800;margin:0 0 .75rem;color:var(--encre)}
+p{margin:0 0 1rem}
+.lead{font-size:1.2rem;color:var(--texte)}
+.btn{display:block;width:100%;text-align:center;background:var(--signal);color:var(--encre);font-weight:800;font-size:1.1rem;text-decoration:none;padding:1.05rem 1.25rem;border-radius:.6rem;border:2px solid var(--encre);min-height:3.4rem}
+.btn:hover{background:#FFD566}
+.btn:focus-visible,summary:focus-visible,a:focus-visible{outline:3px solid var(--encre);outline-offset:3px}
+.sous-bouton{font-size:.95rem;color:var(--discret);margin:.6rem 0 0;text-align:center}
+section{padding:2.5rem 0;border-top:1px solid var(--trait)}
+.chiffre{background:var(--encre);color:#fff;margin:0 -1.25rem;padding:2rem 1.25rem}
+.chiffre b{display:block;font-size:clamp(3.5rem,18vw,6rem);line-height:1;font-weight:800;color:var(--signal);letter-spacing:-.04em}
+.chiffre p{margin:.5rem 0 0;font-size:1.15rem}
+.chiffre small{display:block;margin-top:1rem;color:#BFD0CD;font-size:.9rem}
+.liste{list-style:none;padding:0;margin:0}
+.liste li{padding:1rem 0;border-bottom:1px solid var(--trait)}
+.liste li:last-child{border-bottom:0}
+.liste strong{display:block;font-size:1.12rem;color:var(--encre)}
+.garantie{border:2px solid var(--encre);border-radius:.6rem;padding:1.25rem;background:#fff}
+.garantie h2{margin-bottom:.5rem}
+.prix{font-size:2.6rem;font-weight:800;color:var(--encre);letter-spacing:-.03em;line-height:1}
+.prix span{font-size:1.1rem;font-weight:600;color:var(--discret);letter-spacing:0}
+details{border-bottom:1px solid var(--trait);padding:.9rem 0}
+summary{font-weight:600;cursor:pointer;color:var(--encre);min-height:2.75rem;display:flex;align-items:center}
+details p{margin:.5rem 0 0;color:var(--texte)}
+footer{border-top:1px solid var(--trait);padding:1.5rem 0 2rem;font-size:.92rem;color:var(--discret)}
+footer a{margin-right:1rem}
+.barre{position:fixed;left:0;right:0;bottom:0;background:var(--fond);border-top:1px solid var(--trait);padding:.7rem 1.25rem calc(.7rem + env(safe-area-inset-bottom,0px));z-index:5}
+.barre .btn{max-width:40rem;margin:0 auto}
+@media (min-width:48rem){
+  .barre{display:none}
+  body{padding-bottom:0}
+  .chiffre{margin:0;border-radius:.6rem;padding:2rem}
+}
+</style>
+</head>
+<body>
+
+<header><div class="wrap"><a class="logo" href="/">Panier Perdu</a></div></header>
+
+<main class="wrap">
+
+<h1>Tes clients remplissent leur panier, puis partent. Récupère-les pour 29 € par mois.</h1>
+<p class="lead">Deux relances écrites, espacées et personnalisées pour chaque panier abandonné de ta boutique Shopify ou WooCommerce. Relances illimitées, sans engagement.</p>
+<a class="btn" href="https://buy.stripe.com/test_28E14mby6grv5ku5ir0co00">Réserver mon accès de lancement : 29 €/mois</a>
+<p class="sous-bouton">Satisfait ou remboursé 14 jours. Résiliable à tout moment.</p>
+
+<section class="chiffre" style="margin-top:2.5rem;border-top:0">
+  <b>7 sur 10</b>
+  <p>C'est à peu près la part des paniers qui sont remplis puis abandonnés sur les boutiques en ligne.</p>
+  <p>Exemple, pas une promesse : 70 paniers abandonnés par mois à 50 € représentent 3 500 € laissés sur la table. En récupérer 1 sur 20 rapporte environ 175 €.</p>
+  <small>Ordre de grandeur issu d'études sur l'abandon de panier. Ton résultat dépendra de ta boutique.</small>
+</section>
+
+<section>
+  <h2>Pourquoi tu ne relances probablement rien aujourd'hui</h2>
+  <p>Les outils de relance sont vendus au volume et deviennent chers dès qu'on a quelques dizaines de commandes par mois. Résultat : les petites boutiques ne relancent pas du tout.</p>
+  <p>Panier Perdu est fait pour elles.</p>
+</section>
+
+<section>
+  <h2>Ce que tu obtiens</h2>
+  <ul class="liste">
+    <li><strong>Une séquence de deux relances</strong>Un premier email de rappel, puis un second quelques jours plus tard, avec le prénom du client et les produits de son panier.</li>
+    <li><strong>Un code de réduction facultatif</strong>Tu peux en glisser un dans la seconde relance, ou t'en passer.</li>
+    <li><strong>Le chiffre d'affaires récupéré, en euros</strong>Tu vois ce que les relances ont rapporté, pour juger toi-même si les 29 € valent le coup.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Comment ça se passe</h2>
+  <p>Tu es parmi les premiers : c'est un accès de lancement. Après ton paiement, tu reçois un email de confirmation. Je connecte ta boutique moi-même et je configure tes deux relances sous 48 h. Tu n'as rien à installer.</p>
+  <p>Je ne te vends pas un logiciel terminé : je te vends une mise en route faite à la main, et un outil qui s'améliore avec tes retours.</p>
+</section>
+
+<section>
+  <div class="garantie">
+    <h2>Satisfait ou remboursé, 14 jours</h2>
+    <p>Si ça ne te convient pas, écris-moi à <strong>[VOTRE EMAIL]</strong> dans les 14 jours suivant ton paiement. Aucune justification n'est demandée. Je te rembourse l'intégralité du premier paiement sous 5 jours ouvrés.</p>
+  </div>
+</section>
+
+<section>
+  <h2>Un seul abonnement</h2>
+  <p class="prix">29 € <span>par mois, soit moins de 1 € par jour</span></p>
+  <p style="margin-top:.75rem">Par boutique. Relances illimitées.</p>
+  <a class="btn" href="https://buy.stripe.com/test_28E14mby6grv5ku5ir0co00">Réserver mon accès de lancement : 29 €/mois</a>
+  <p class="sous-bouton">Sans engagement, résiliable à tout moment. Paiement sécurisé par Stripe.</p>
+</section>
+
+<section>
+  <h2>Questions fréquentes</h2>
+  <details><summary>Ça marche pour ma boutique ?</summary><p>Panier Perdu est prévu pour les boutiques Shopify et WooCommerce qui font quelques dizaines de commandes par mois. Si ta boutique est d'un autre type, écris-moi avant de payer.</p></details>
+  <details><summary>Combien de temps ça me prend ?</summary><p>Quelques minutes : tu me donnes l'accès à ta boutique, et je m'occupe du reste sous 48 h.</p></details>
+  <details><summary>Et si je veux arrêter ?</summary><p>Tu résilies quand tu veux, sans préavis. Et pendant 14 jours, tu peux te faire rembourser le premier paiement.</p></details>
+  <details><summary>À quoi sert exactement ce que je paie ?</summary><p>À l'envoi de deux relances personnalisées pour chaque panier abandonné, et au suivi en euros de ce qu'elles te rapportent.</p></details>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <a href="legal.html#mentions">Mentions légales</a><a href="legal.html#cgv">CGV</a><a href="legal.html#confidentialite">Confidentialité</a>
+  </div>
+</footer>
+
+<div class="barre"><a class="btn" href="https://buy.stripe.com/test_28E14mby6grv5ku5ir0co00">Réserver mon accès : 29 €/mois</a></div>
+
+</body>
+</html>
